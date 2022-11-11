@@ -1,0 +1,6 @@
+input[type="range"] {
+  height: 5px;
+
+  width: 8rem;
+  background-color: red;
+}

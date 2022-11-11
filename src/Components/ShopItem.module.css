@@ -1,0 +1,161 @@
+/* .item-container {
+  height: 22rem;
+} */
+
+.item-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+
+
+
+}
+
+@media screen and (max-width: 680px){
+  .item-container{
+   
+  }
+}
+.item-discount {
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.item-description--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+
+.initial-current__price {
+  display: flex;
+}
+.item-price {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.item-old__price {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.item-cart__favourite {
+  display: flex;
+  justify-content: center;
+  /* gap: 1rem; */
+  /* display: none;
+ t
+  margin: 0;
+  padding: 0;
+ 
+  
+  
+  
+}
+
+.item-cart__favourite:hover {
+  cursor: pointer;
+}
+.item-holder{ 
+}
+.item-detail{
+  background: green;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.add-cart {
+  /* animation-name: icon;
+  animation-duration: 1s;
+  animation-timing-function: ease; */
+  display: flex;
+
+}
+
+/* .remove-cart__show {
+  animation-name: iconhide;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+} */
+.icon-box {
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.final-hide {
+
+}
+.heart:hover {
+  animation-name: heart;
+  animation-duration: 400ms;
+  animation-timing-function: ease;
+}
+.cart:hover {
+  animation-name: heart;
+  animation-duration: 400ms;
+  animation-timing-function: ease;
+}
+.repeat:hover {
+  animation-name: heart;
+  animation-duration: 400ms;
+  animation-timing-function: ease;
+}
+.item-detail{
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+
+}
+.item-detail:hover{
+  color: white;
+  text-decoration: none;
+}
+@keyframes heart {
+  form {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon {
+  from {
+    transform: translateY(0px);
+    display: flex;
+  }
+  to {
+    transform: translateY(-40px);
+    transition: 2s;
+    display: flex;
+  }
+}
+
+@keyframes iconhide {
+  from {
+    transform: translateY(0px);
+    display: flex;
+  }
+  to {
+  
+    transition: 2s;
+    display: none;
+  }
+} 

@@ -1,0 +1,49 @@
+
+.all{
+    justify-content: space-around;
+    background-color: "green"
+;
+padding: 0 5rem;
+color: white;
+font-weight: 900;
+cursor: pointer;
+}
+.lastCol{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-div{
+    border-radius: 100%;
+    background-color: green;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeDiscription{
+
+    width: 30rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+.fruit{
+    color: green;
+}
+.vagetable{
+    font-weight: 700;
+}
+
+.but{
+ width: 8rem;
+ padding: 0.5rem;
+ color: white;
+ background-color: green;
+ outline: none;
+ border: none;
+ font-weight: bold;
+ cursor: pointer;
+}

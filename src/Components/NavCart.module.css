@@ -1,0 +1,27 @@
+
+.span-item {
+    background-color: green;
+    color: white;
+    border-radius: 999px;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.6rem;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+  }
+  .cart-favourite {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+  }
+  .item {
+    display: flex;
+    cursor: pointer;
+  }
+ 
+  

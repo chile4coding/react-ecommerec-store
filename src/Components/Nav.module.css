@@ -1,0 +1,10 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+.color {
+  color: black;
+  display: inline;
+}
+

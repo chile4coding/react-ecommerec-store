@@ -1,0 +1,24 @@
+.icon-display {
+  display: flex;
+
+  align-items: center;
+  gap: 0.5rem;
+}
+.img-width {
+  width: 3rem;
+}
+.btn-container{
+    background-color: gray;
+    padding: 0.5rem;
+}
+.btn-display{
+    display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-width{
+  width:2rem;
+  --bs-offcanvas-width: min(65vw, 400px) !important;
+}
+
+

@@ -1,0 +1,14 @@
+/* .div{
+  width: 5rem;
+} */
+.anchor{
+  text-decoration:none;
+  color: black;
+  
+}
+
+.anchor:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}

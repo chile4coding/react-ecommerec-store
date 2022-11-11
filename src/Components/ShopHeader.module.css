@@ -1,0 +1,19 @@
+
+.img{
+   background-image: url("../../public/home-image.jpg"); 
+   height: 7rem;
+   background-repeat: none;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+.title{
+    font-weight: 900;
+    font-size: 1.5rem;
+    background-color: #3d7400;
+    padding: 0.5rem 1rem;
+    color: white;
+}

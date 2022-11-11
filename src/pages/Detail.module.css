@@ -1,0 +1,44 @@
+.item-container{
+    width: 10rem;
+    height: 10rem;
+}
+
+.icon-container{
+    display:flex;
+   
+
+    margin: 0;
+    align-items: center;
+
+}
+.icon-cont{
+    width:0.8rem;
+    height: 0.8rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.btn--add__remove{
+    display: flex;
+    justify-content:  center;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    border: none;
+   
+}
+.btn-add{
+    background-color: green;
+    color: white;
+    margin-left: 0.5rem;
+}
+.bg{
+    background-color: green;
+    height: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
